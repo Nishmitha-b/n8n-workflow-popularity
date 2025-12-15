@@ -37,6 +37,15 @@ Results are exposed via a **REST API** and updated automatically using **cron jo
 ---
 
 ## API
+## Environment Variables
+
+This project uses external APIs.
+
+Create a `.env` file in the root directory:
+
+YOUTUBE_API_KEY=your_api_key_here
+
+The `.env` file is excluded from version control for security reasons.
 
 ### Endpoint
 
